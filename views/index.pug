@@ -1,9 +1,12 @@
 extends layout
 
 block content
+
   .flex
     include side.pug
     p 
+    - var title= "PUG-APP";
+
     |Welcome to #{title} 
     br
     |PugはHTMLを効率よくコーディングするためのテンプレートエンジンです。もともとはJadeという名前で呼ばれていました。
