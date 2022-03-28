@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    font: 120% "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 70%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #797979;
+}
